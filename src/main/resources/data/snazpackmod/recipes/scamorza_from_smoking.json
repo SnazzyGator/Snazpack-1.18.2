@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "snazpackmod:cheese_mozzarella"
+  },
+  "result": "snazpackmod:cheese_scamorza",
+  "experience": 0.35,
+  "cookingtime": 100
+}

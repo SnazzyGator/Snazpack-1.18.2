@@ -1,0 +1,14 @@
+{
+  "type": "snazpackmod:artisan_crafting",
+  "ingredients": [
+    {
+      "item": "snazpackmod:yogurt"
+    },
+    {
+      "item": "minecraft:sweetberry"
+    }
+  ],
+  "output": {
+    "item": "snazpackmod:sweetberry_yogurt"
+  }
+}

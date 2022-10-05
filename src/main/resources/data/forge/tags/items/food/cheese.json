@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "snazpackmod:cheese_mozzarella",
+    "snazpackmod:cheese_scamorza",
+    "snazpackmod:cheese_geet_feta",
+    "snazpackmod:cheese_geet_raw"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread/bread"
+    },
+    {
+      "tag": "forge:crops/sliced_cucumber"
+    }
+  ],
+  "result": {
+    "item": "snazpackmod:cucumber_sandwich"
+  }
+}

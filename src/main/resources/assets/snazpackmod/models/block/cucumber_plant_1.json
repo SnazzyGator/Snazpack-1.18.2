@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "snazpackmod:block/cucumber_plant_1"
+  }
+}

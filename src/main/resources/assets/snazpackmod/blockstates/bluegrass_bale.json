@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "snazpackmod:block/bluegrass_bale_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "snazpackmod:block/bluegrass_bale"
+    },
+    "axis=z": {
+      "model": "snazpackmod:block/bluegrass_bale_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread/bread"
+    },
+    {
+      "item": "minecraft:cooked_pork"
+    },
+    {
+      "item": "snazpackmod:cheese_mozzarella"
+    }
+  ],
+  "result": {
+    "item": "snazpackmod:pulled_pork_sandwich"
+  }
+}

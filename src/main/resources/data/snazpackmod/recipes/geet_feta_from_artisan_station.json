@@ -1,0 +1,14 @@
+{
+  "type": "snazpackmod:artisan_crafting",
+  "ingredients": [
+    {
+      "item": "snazpackmod:cheese_geet_raw"
+    },
+    {
+      "tag": "forge:spices/salt"
+    }
+  ],
+  "output": {
+    "item": "snazpackmod:cheese_geet_feta"
+  }
+}

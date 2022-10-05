@@ -1,0 +1,48 @@
+{
+  "item.snazpackmod.cucumber": "Cucumber",
+  "item.snazpackmod.cucumber_slices": "Cucumber Slices",
+  "item.snazpackmod.cucumber_sandwich": "Cucumber Sandwich",
+  "item.snazpackmod.sus_bread": "Bread?",
+  "item.snazpackmod.serpentberries": "Serpentberries",
+  "item.snazpackmod.mutton_sandwich": "Mutton Sandwich",
+  "item.snazpackmod.cheese_mutton_sandwich": "Geet Sandwich",
+  "item.snazpackmod.pulled_pork_sandwich": "Cheesy Pulled Pork Sandwich",
+  "item.snazpackmod.cheese_mozzarella": "Mozzarella Cheese",
+  "item.snazpackmod.cheese_scamorza": "Scamorza Cheese",
+  "item.snazpackmod.cheese_geet_feta": "Geet Feta Cheese",
+  "item.snazpackmod.cheese_geet_raw": "Raw Geet Cheese",
+  "item.snazpackmod.geet_milk_bucket": "Bucket of Geet Milk",
+  "item.snazpackmod.salt": "Salt",
+  "item.snazpackmod.butter": "Butter",
+  "item.snazpackmod.yogurt": "Yogurt",
+  "item.snazpackmod.geet_yogurt": "Geet Yogurt",
+  "item.snazpackmod.serpentberry_yogurt": "Serpentberry Yogurt",
+  "item.snazpackmod.sweetberry_yogurt": "Sweetberry Yogurt",
+
+  "block.snazpackmod.cucumber_plant": "Cucumber Plant",
+  "item.snazpackmod.cucumber_seeds": "Cucumber Seeds",
+  "block.snazpackmod.bluegrass_plant": "Bluegrass Plant",
+  "item.snazpackmod.bluegrass_seeds": "Bluegrass Seeds",
+  "block.snazpackmod.wild_cucumber_plant": "Wild Cucumber Plant",
+  "block.snazpackmod.wild_bluegrass_plant": "Wild Bluegrass",
+  "block.snazpackmod.serpentberry_bush": "Serpentberry Bush",
+
+  "block.snazpackmod.bluegrass_bale": "Bluegrass Bale",
+
+  "block.snazpackmod.artisan_station": "Artisan Station",
+
+  "item.snazpackmod.littlegator_spawn_egg": "Littlegator Spawn Egg",
+  "item.snazpackmod.geet_spawn_egg": "Geet Spawn Egg",
+
+  "itemGroup.snazpack_tab": "Unnamed Geet Mod",
+  "item.snazpackmod.snazzygator_item": "G'day!",
+
+  "tooltip.snazpackmod.block.speedy_block": "Step on me!",
+
+  "entity.snazpackmod.littlegator": "Gator",
+  "entity.snazpackmod.geet": "Geet",
+
+  "sounds.snazpackmod.littlegator_squeak": "Gator Squeaks",
+  "sounds.snazpackmod.littlegator_scream": "Gator Screams"
+
+}

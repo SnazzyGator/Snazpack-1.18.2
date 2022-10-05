@@ -1,0 +1,14 @@
+{
+  "littlegator_squeak": {
+    "subtitle": "sounds.snazpackmod.littlegator_squeak",
+    "sounds": [
+      "snazpackmod:littlegator_squeak"
+    ]
+  },
+  "littlegator_scream": {
+    "subtitle": "sounds.snazpackmod.littlegator_scream",
+    "sounds": [
+      "snazpackmod:littlegator_scream"
+    ]
+  }
+}

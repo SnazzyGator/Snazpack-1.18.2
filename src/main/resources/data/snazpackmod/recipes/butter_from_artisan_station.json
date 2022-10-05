@@ -1,0 +1,14 @@
+{
+  "type": "snazpackmod:artisan_crafting",
+  "ingredients": [
+    {
+      "item": "snazpackmod:salt"
+    },
+    {
+      "tag": "forge:food/milk"
+    }
+  ],
+  "output": {
+    "item": "snazpackmod:butter"
+  }
+}

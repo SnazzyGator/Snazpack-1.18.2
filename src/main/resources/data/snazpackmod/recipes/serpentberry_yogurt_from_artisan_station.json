@@ -1,0 +1,14 @@
+{
+  "type": "snazpackmod:artisan_crafting",
+  "ingredients": [
+    {
+      "item": "snazpackmod:geet_yogurt"
+    },
+    {
+      "item": "snazpackmod:serpentberries"
+    }
+  ],
+  "output": {
+    "item": "snazpackmod:serpentberry_yogurt"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "snazpackmod:block/wild_cucumber_plant"
+  }
+}

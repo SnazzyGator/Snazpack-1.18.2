@@ -1,0 +1,15 @@
+{
+  "type": "snazpackmod:artisan_crafting",
+  "ingredients": [
+    {
+      "item": "snazpackmod:geet_milk_bucket"
+    },
+    {
+      "tag": "forge:spices/salt"
+    }
+  ],
+  "output": {
+    "item": "snazpackmod:cheese_geet_raw",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "snazpackmod:block/bluegrass_plant0" },
+    "age=1": { "model": "snazpackmod:block/bluegrass_plant1" },
+    "age=2": { "model": "snazpackmod:block/bluegrass_plant2" },
+    "age=3": { "model": "snazpackmod:block/bluegrass_plant3" },
+    "age=4": { "model": "snazpackmod:block/bluegrass_plant4" },
+    "age=5": { "model": "snazpackmod:block/bluegrass_plant5" },
+    "age=6": { "model": "snazpackmod:block/bluegrass_plant6" },
+    "age=7": { "model": "snazpackmod:block/bluegrass_plant7" }
+  }
+}

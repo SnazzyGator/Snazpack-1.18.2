@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": { "model": "snazpackmod:block/cucumber_plant_0" },
+    "age=1": { "model": "snazpackmod:block/cucumber_plant_1" },
+    "age=2": { "model": "snazpackmod:block/cucumber_plant_2" },
+    "age=3": { "model": "snazpackmod:block/cucumber_plant_3" },
+    "age=4": { "model": "snazpackmod:block/cucumber_plant_4" },
+    "age=5": { "model": "snazpackmod:block/cucumber_plant_5" }
+  }
+}

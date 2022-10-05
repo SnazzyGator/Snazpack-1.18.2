@@ -1,0 +1,14 @@
+{
+  "type": "snazpackmod:artisan_crafting",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "tag": "forge:crops/mushroom"
+    }
+  ],
+  "output": {
+    "item": "snazpackmod:yogurt"
+  }
+}

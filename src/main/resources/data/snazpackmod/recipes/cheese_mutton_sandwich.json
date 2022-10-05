@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread/bread"
+    },
+    {
+      "item": "minecraft:cooked_mutton"
+    },
+    {
+      "item": "snazpackmod:cheese_geet_raw"
+    }
+  ],
+  "result": {
+    "item": "snazpackmod:cheese_mutton_sandwich"
+  }
+}

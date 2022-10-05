@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "snazpackmod:block/artisan_station" },
+    "facing=east": { "model": "snazpackmod:block/artisan_station", "y": 90 },
+    "facing=south": { "model": "snazpackmod:block/artisan_station", "y": 180 },
+    "facing=west": { "model": "snazpackmod:block/artisan_station", "y": 270 }
+  }
+}
