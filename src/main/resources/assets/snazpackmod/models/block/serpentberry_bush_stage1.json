@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "snazpackmod:block/serpentberry_bush_1"
+    "cross": "snazpackmod:block/serpentberry_bush_stage1"
   }
 }

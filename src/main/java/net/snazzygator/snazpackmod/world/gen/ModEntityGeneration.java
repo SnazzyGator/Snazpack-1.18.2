@@ -21,7 +21,7 @@ public class ModEntityGeneration {
                 40, 3, 4, Biomes.OLD_GROWTH_SPRUCE_TAIGA);
 
         addEntityToSpecificBiomes(event, ModEntityTypes.LITTLEGATOR.get(),
-                5, 1, 1, Biomes.SWAMP);
+                1, 1, 1, Biomes.SWAMP);
         addEntityToSpecificBiomes(event, ModEntityTypes.LITTLEGATOR.get(),
                 1, 1, 1, Biomes.GROVE);
     }

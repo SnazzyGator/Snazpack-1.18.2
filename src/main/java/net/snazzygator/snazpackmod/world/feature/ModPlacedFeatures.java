@@ -10,10 +10,15 @@ import net.minecraft.world.level.levelgen.placement.RarityFilter;
 public class ModPlacedFeatures {
 
     public static final Holder<PlacedFeature> BLUEGRASS_PLACED = PlacementUtils.register("bluegrass_placed",
-            ModConfiguredFeatures.WILD_BLUEGRASS, RarityFilter.onAverageOnceEvery(20),
+            ModConfiguredFeatures.WILD_BLUEGRASS, RarityFilter.onAverageOnceEvery(16),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
     public static final Holder<PlacedFeature> CUCUMBER_PLACED = PlacementUtils.register("cucumber_placed",
-            ModConfiguredFeatures.WILD_CUCUMBER, RarityFilter.onAverageOnceEvery(20),
+            ModConfiguredFeatures.WILD_CUCUMBER, RarityFilter.onAverageOnceEvery(16),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
+
+    public static final Holder<PlacedFeature> SERPENTBERRY_PLACED = PlacementUtils.register("serpentberry_placed",
+            ModConfiguredFeatures.PATCH_SERPENTBERRY_BUSH, RarityFilter.onAverageOnceEvery(5),
+            InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
+
 }

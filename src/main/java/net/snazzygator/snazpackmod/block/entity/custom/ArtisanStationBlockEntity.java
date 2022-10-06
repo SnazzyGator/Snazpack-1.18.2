@@ -42,7 +42,7 @@ public class ArtisanStationBlockEntity extends BlockEntity implements MenuProvid
 
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 240;
+    private int maxProgress = 120;
 
     public ArtisanStationBlockEntity(BlockPos pWorldPosition, BlockState pBlockState) {
         super(ModBlockEntities.ARTISAN_STATION_BLOCK_ENTITY.get(), pWorldPosition, pBlockState);

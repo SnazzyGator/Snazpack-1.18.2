@@ -11,8 +11,8 @@ public class ModFoods {
             .nutrition(1).saturationMod(0.1F).fast().build();
     public static final FoodProperties SUS_BREAD = (new FoodProperties.Builder())
             .nutrition(5).saturationMod(0.6F).effect(new MobEffectInstance(MobEffects.CONFUSION, 300, 0), 1.0F).build();
-    /*public static final FoodProperties SERPENTBERRIES = (new FoodProperties.Builder())
-            .nutrition(2).saturationMod(0.1F).build();*/
+    public static final FoodProperties SERPENTBERRIES = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(0.1F).build();
     public static final FoodProperties CHEESE_MOZZARELLA = (new FoodProperties.Builder())
             .nutrition(4).saturationMod(0.8F).build();
     public static final FoodProperties CHEESE_SCAMORZA = (new FoodProperties.Builder())

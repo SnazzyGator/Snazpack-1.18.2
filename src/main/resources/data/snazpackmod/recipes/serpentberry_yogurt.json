@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "snazpackmod:serpentberries"
+    },
+    {
+      "tag": "forge:food/yogurt"
+    }
+  ],
+  "result": {
+    "item": "snazpackmod:serpentberry_yogurt"
+  }
+}

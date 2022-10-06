@@ -71,8 +71,7 @@ public class ArtisanStationRecipe implements Recipe<SimpleContainer> {
 
     public static class Serializer implements RecipeSerializer<ArtisanStationRecipe> {
         public static final Serializer INSTANCE = new Serializer();
-        public static final ResourceLocation ID =
-                new ResourceLocation(SnazpackMod.MOD_ID,"artisan_crafting");
+        public static final ResourceLocation ID = new ResourceLocation(SnazpackMod.MOD_ID,"artisan_crafting");
 
         @Override
         public ArtisanStationRecipe fromJson(ResourceLocation id, JsonObject json) {
@@ -126,7 +125,7 @@ public class ArtisanStationRecipe implements Recipe<SimpleContainer> {
         }
 
         @SuppressWarnings("unchecked") // Need this wrapper, because generics
-        private static <G> Class<G> castClass(Class<?> cls) {
+        static <G> Class<G> castClass(Class<?> cls) {
             return (Class<G>)cls;
         }
     }

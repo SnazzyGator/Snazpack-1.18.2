@@ -1,4 +1,4 @@
-package net.snazzygator.snazpackmod.sound;
+package net.snazzygator.snazpackmod.entity.client.sound;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;

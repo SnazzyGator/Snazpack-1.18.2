@@ -7,20 +7,12 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.snazzygator.snazpackmod.block.ModBlocks;
 import net.snazzygator.snazpackmod.block.entity.ModBlockEntities;
@@ -31,11 +23,9 @@ import net.snazzygator.snazpackmod.item.ModItems;
 import net.snazzygator.snazpackmod.recipe.ModRecipes;
 import net.snazzygator.snazpackmod.screen.ArtisanStationScreen;
 import net.snazzygator.snazpackmod.screen.ModMenuTypes;
-import net.snazzygator.snazpackmod.sound.ModSounds;
+import net.snazzygator.snazpackmod.entity.client.sound.ModSounds;
 import org.slf4j.Logger;
 import software.bernie.geckolib3.GeckoLib;
-
-import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SnazpackMod.MOD_ID)
@@ -73,7 +63,7 @@ public class SnazpackMod {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUEGRASS_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WILD_BLUEGRASS_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WILD_CUCUMBER_PLANT.get(), RenderType.cutout());
-        /*ItemBlockRenderTypes.setRenderLayer(ModBlocks.SERPENTBERRY_BUSH.get(), RenderType.cutout());*/
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SERPENTBERRY_BUSH.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ARTISAN_STATION.get(), RenderType.cutout());
 

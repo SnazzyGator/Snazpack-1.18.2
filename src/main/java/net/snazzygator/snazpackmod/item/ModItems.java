@@ -71,9 +71,10 @@ public class ModItems {
     public static final RegistryObject<Item> BLUEGRASS_SEEDS = ITEMS.register("bluegrass_seeds",
             () -> new ItemNameBlockItem(ModBlocks.BLUEGRASS_PLANT.get(),
                     new Item.Properties().tab(ModCreativeModeTab.SNAZPACK_TAB)));
-    /*public static final RegistryObject<Item> SERPENTBERRIES = ITEMS.register("serpentberries",
+
+    public static final RegistryObject<Item> SERPENTBERRIES = ITEMS.register("serpentberries",
             () -> new ItemNameBlockItem(ModBlocks.SERPENTBERRY_BUSH.get(),
-                    (new Item.Properties()).tab(ModCreativeModeTab.SNAZPACK_TAB).food(ModFoods.SERPENTBERRIES)));*/
+                    (new Item.Properties()).tab(ModCreativeModeTab.SNAZPACK_TAB).food(ModFoods.SERPENTBERRIES)));
 
     public static final RegistryObject<Item> BLUEGRASS = ITEMS.register("bluegrass",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SNAZPACK_TAB)));

@@ -13,6 +13,7 @@ import net.snazzygator.snazpackmod.SnazpackMod;
 import net.snazzygator.snazpackmod.block.custom.ArtisanStationBlock;
 import net.snazzygator.snazpackmod.block.custom.BluegrassPlantBlock;
 import net.snazzygator.snazpackmod.block.custom.CucumberPlantBlock;
+import net.snazzygator.snazpackmod.block.custom.SerpentberryBushBlock;
 import net.snazzygator.snazpackmod.item.ModCreativeModeTab;
 import net.snazzygator.snazpackmod.item.ModItems;
 
@@ -29,8 +30,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLUEGRASS_PLANT = registerBlockWithoutBlockItem("bluegrass_plant",
             () -> new BluegrassPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
-    /*public static final RegistryObject<Block> SERPENTBERRY_BUSH = registerBlockWithoutBlockItem("serpentberry_bush",
-            () -> new SerpentberryBushBlock(BlockBehaviour.Properties.copy(Blocks.SWEET_BERRY_BUSH).noOcclusion()));*/
+    public static final RegistryObject<Block> SERPENTBERRY_BUSH = registerBlockWithoutBlockItem("serpentberry_bush",
+            () -> new SerpentberryBushBlock(BlockBehaviour.Properties.of(Material.PLANT).randomTicks().noCollission()
+                    .sound(SoundType.SWEET_BERRY_BUSH)));
 
     public static final RegistryObject<Block> WILD_BLUEGRASS_PLANT = registerBlock("wild_bluegrass_plant",
             () -> new TallGrassBlock(BlockBehaviour.Properties.of(Material.PLANT).noCollission().instabreak().sound(SoundType.GRASS).noOcclusion()),
